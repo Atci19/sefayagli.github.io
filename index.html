@@ -1,64 +1,119 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Profilim</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<body>
-    <style>
+	<title>Home</title>
+	<style>
 		.left {
 			float: left;
 			width: 30%;
+			background-color: rgb(7, 28, 85);
+			padding: 50px;
+			box-sizing: border-box;
+			text-align: center;
 		}
 		.right {
 			float: right;
-			width: 50%;
+			width: 70%;
+			background-image: url('backround1.jpg');
+			background-size: cover;
+			background-position: center;
+			height: 600px;
+		}
+		.profile-pic {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			object-fit: cover;
+			margin: 0 auto;
+			display: block;
+			margin-bottom: 20px;
+		}
+		h2 {
+			margin-top: 0;
+		}
+		p {
+			margin: 10px 0;
+			text-align: justify;
+		}
+		a {
+			color: white;
+			text-decoration: none;
 		}
 	</style>
 </head>
 <body>
-
-    </body>
 	<div class="left">
-		<h1 style="text-align: center;">Sefa YAĞLI </h1>
-        
-        <header>
-            
-        </header>
-        <main>
-            <div class="profil">
-                <img src="profil_fotografi.jpg" width="400" height="400" style="display: block; margin: auto;" alt="Profil Fotoğrafı">
-            
-                <h2 style="text-align: center;">Mesleğim</h2>
-                <ul>
-                    <li>İnşaat Mühendisi</li>
-                    <li>Yazılımcı</li>
-                </ul>    
-                <h2 style="text-align: center;">Hakkımda</h2>
-                <p>Benim adım Sefa YAĞLI. İnşaat mühendisi olarak 6 yıldır çalışıyorum. Aynı zamanda yazılımla da ilgileniyorum. Kotlin ve python dillerini kullanıyorum.</p>
-                <h2 style="text-align: center;">Yeteneklerim</h2>
-                <ul>
-                    
-                    <li>Android Uygulama-Kotlin</li>
-                    <li>Python Programlama</li>
-                </ul>
-            </div>
-        </main>
-        <footer>
-            <p>&copy; 2023 - Profilim</p>
-        </footer>
+		<img src="profil_fotografi.jpg" alt="Profil Resmi" class="profile-pic">
+		<h2>Meslek</h2>
+		<p>Hakkımda kısa bilgilerim</p>
+		<p><a href="mailto:ornek@mail.com">ornek@mail.com</a></p>
+		<p>İlgi alanlarım: örnek 1, örnek 2, örnek 3</p>
 	</div>
-	<div class="right">
-        
-            
-        </body>
-		<h1></h1>
+	<div class="right"></div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.left {
+			width: 100%;
+			background-color: rgb(30, 30, 83);
+			padding: 20px;
+			box-sizing: border-box;
+			text-align: center;
+		}
+		.profile-pic {
+			max-width: 100%;
+			height: auto;
+			border-radius: 50%;
+			object-fit: cover;
+			margin-bottom: 10px;
+		}
+		h2 {
+			margin-top: 0;
+		}
+		p {
+			margin: 10px 0;
+			text-align: justify;
+		}
+		a {
+			color: white;
+			text-decoration: none;
+		}
+		.right {
+			margin-top: 20px;
+			background-image: url('backround1.jpg');
+			background-size: cover;
+			background-position: center;
+			height: 300px;
+		}
+		@media (min-width: 768px) {
+			.left {
+				float: left;
+				width: 30%;
+			}
+			.right {
+				float: right;
+				width: 70%;
+				margin-top: 0;
+				height: 600px;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="left">
 		
+		<h2>Meslek</h2>
+		<p>Hakkımda kısa bilgilerim</p>
+		<p><a href="mailto:ornek@mail.com">ornek@mail.com</a></p>
+		<p>İlgi alanlarım: örnek 1, örnek 2, örnek 3</p>
 	</div>
-	
-	
+	<div class="right"></div>
 </body>
 </html>
