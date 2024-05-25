@@ -1,15 +1,68 @@
 <!DOCTYPE html>
 <html lang="tr">
-
 <head>
-    <meta charset="utf-8">
-    <title>Kahve-Lebi0</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <link href="home.css" rel="stylesheet">
-    <link href="" rel="icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jigolo Uğur</title>
+    <link rel="stylesheet" href="ugr.css">
 </head>
 <body>
-    <div class="anamenu"></div>
-    <div class="head"></div>
-    <div class="menu"></div>
+    <header>
+        <h1>Tokatlı Jigolo Uğur</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Anasayfa</a></li>
+                <li><a href="#register">Kayıt Ol</a></li>
+                <li><a href="#profiles">Hakkımızda</a></li>
+                <li><a href="#booking">Rezervasyon</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Jigolo Uğur</h2>
+            <p>Elektrik alamayana trafo sokarız...</p>
+        </section>
+
+        <section id="register">
+            <h2>Kayıt Ol, İndirimleri Kaçırma!</h2>
+            <form id="registerForm">
+                <label for="name">İsim:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">E-posta:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Şifre:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Kayıt Ol</button>
+            </form>
+        </section>
+
+        <section id="profiles">
+            <h2>Hakkımızda</h2>
+            <div id="profileList">
+                <!-- Profiller burada listelenecek -->
+            </div>
+        </section>
+
+        <section id="booking">
+            <h2>Rezervasyon</h2>
+            <form id="bookingForm">
+                <label for="selectProfile">Profil Seç:</label>
+                <select id="selectProfile" name="selectProfile">
+                    <!-- Profiller burada doldurulacak -->
+                </select>
+                <label for="date">Tarih:</label>
+                <input type="date" id="date" name="date" required>
+                <button type="submit">Rezervasyon Yap</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Jigolo Uğur-Tüm telif hakları saklıdır</p>
+    </footer>
+
+    <script src="ugr.js"></script>
 </body>
+</html>
