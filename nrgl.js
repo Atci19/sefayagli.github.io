@@ -12,10 +12,11 @@ const messages = [
 ];
 
 const proposals = [
-    "Seninle daha fazla vakit geçirmek istiyorum, benimle çıkar mısın?",
-    "Hayatımın her anında seninle olmayı hayal ediyorum. Benimle çıkar mısın?",
-    "Kalbim hep seninle atıyor. Benimle çıkar mısın?",
-    "Sana olan duygularım tarifsiz. Benimle bir ilişkiye başlamayı düşünür müsün?",
+    "Kalan ömrümü seninle geçirmek istiyorum, evlenene kadar benimle çıkar mısın?",
+    "Evlilik yolunda ilerlemek üzere, benimle çıkar mısın?",
+    "Hayatımın her anında seninle olmayı çok isterim. Benimle çıkar mısın?",
+    "Kalbim hep seninle atıyor, atacak da. Benimle çıkar mısın?",
+    "Kısa bir sürede senden çok etkilendim. Benimle evlilik yolunda ilk adımı atar mısın?",
     "Seninle bir ömür geçirmek istiyorum. Benimle çıkar mısın?"
 ];
 
