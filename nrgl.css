@@ -37,7 +37,7 @@ section {
 .button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #f4511e;
+    background-color: #2c2c2c;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -272,7 +272,7 @@ button {
 
 
 button:hover {
-    background-color: rgb(214, 197, 55);
+    background-color: rgb(0, 0, 0);
 }
 
 #autoMessage, #proposal {
