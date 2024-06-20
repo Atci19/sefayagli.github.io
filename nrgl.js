@@ -1,14 +1,15 @@
 const messages = [
     "En değerli hazinem ol benim.",
-    "Her anımda yanımda olmanı istiyorum.",
-    "Sana olan sevgim her geçen gün daha da artsın istiyorum.",
+    "Her anımda yanımda olmanı çok istiyorum.",
+    "Sana olan sevgim ve hayretim her geçen gün daha da artıyor.",
     "Gözlerinde hayatımın anlamını bulmak istiyorum.",
     "Seninle olmak dünyanın en güzel şeyi.",
     "Sana her baktığımda, seninle her konuştuğumda kalbim hızla çarpıyor.",
     "Seninle geçirdiğim her saniye bir ömür gibi.",
     "Sevgimiz sonsuza dek sürsün istiyorum.",
-    "Seni sevmek benim en büyük mutluluğum.",
-    "Her şeyim olmanı istiyorum."
+    "Seni sevmek,seni mutlu etmek benim en büyük mutluluğum.",
+    "Her şeyim olmanı istiyorum.",
+    "Birtanem..."
 ];
 
 const proposals = [
