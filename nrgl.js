@@ -12,7 +12,7 @@ const messages = [
     "Birtanem..."
 ];
 
-const proposals = [
+const messages2 = [
     "Kalan ömrümü seninle geçirmek istiyorum, evlenene kadar benimle çıkar mısın?",
     "Evlilik yolunda ilerlemek üzere, benimle çıkar mısın?",
     "Hayatımın her anında seninle olmayı çok isterim. Benimle çıkar mısın?",
@@ -34,10 +34,16 @@ function autoChangeMessage() {
     const randomIndex = Math.floor(Math.random() * messages.length);
     autoMessageElement.textContent = messages[randomIndex];
 }
+function autoChangeMessage2() {
+    const autoMessage2Element = document.getElementById('autoMessage2');
+    const randomIndex = Math.floor(Math.random() * messages2.length);
+    autoMessage2Element.textContent = messages2[randomIndex];
+}
+
 
 // Her 5 saniyede bir güzel söz değiştir
 setInterval(autoChangeMessage, 5000);
-
+setInterval(autoChangeMessage2, 3000);
 // Sayfa yüklendiğinde ilk mesajı göster
 window.onload = function() {
     autoChangeMessage();
