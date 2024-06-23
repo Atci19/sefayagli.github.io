@@ -44,11 +44,13 @@ function handleTouchMove(event) {
     this.touchStartY = null;
 }
 
+document.getElementById('upButton').addEventListener('click', () => showPage(currentPage - 1));
+document.getElementById('downButton').addEventListener('click', () => showPage(currentPage + 1));
+
 document.addEventListener('wheel', handleScroll);
 document.addEventListener('keydown', handleKeyDown);
 document.addEventListener('touchstart', handleTouchStart);
 document.addEventListener('touchmove', handleTouchMove);
-
 
 const messages = [
   "En değerli hazinem ol benim.",
